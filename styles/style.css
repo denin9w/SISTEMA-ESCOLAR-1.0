@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Sacramento&family=Teachers:ital,wght@0,400..800;1,400..800&display=swap');
+
+.sacramento-regular{
+    font-family: "Sacramento", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.teachers{
+    font-family: "Teachers", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.roboto{
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+}
+
+:root{
+    --fundo:#003869;
+    --fundo-primario:#191ef8;
+    --fundo-secundario:#041218;
+    --elementos-primario:#01161E;
+    --fundo-nav:#6DAEDB;
+    --destaque:#fd269c;
+    --font-color-padrão: white;
+    --titlecolor:#003869;
+    --subtitlecolor: #0196f9;
+
+    --font-subtitle: "Teachers", sans-serif;
+    --font-title: "Sacramento", cursive;
+    --font-btn:"Roboto", sans-serif;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: monospace;
+    box-sizing: border-box;
+}
+
+html,body{
+   display: flex;
+   flex-direction: column;
+   width: 100vw;
+   height: 100vh;
+   background-color: #ffffff;
+}
+

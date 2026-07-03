@@ -1,0 +1,45 @@
+@import url(style.css);
+
+#baner{
+    display: flex;
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background: url(../imagens/fundo.png);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.elemento-moeda img{
+    position: absolute;
+    width:15%;
+    bottom: 5%;
+    right: 5%;
+
+}
+.elemento-boneco1 img{
+    position: absolute;
+    width: 20%;
+    top: 5%;
+    left: 5%;
+
+}
+
+.text-banner{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto;
+    width: 100%;
+    height: 400px;
+    padding: 30px;
+}
+.text-banner h1{
+    font-size: 3.6em;
+    margin-bottom: 30px;
+    color: var(--titlecolor);
+}
+.text-banner h2{
+    font-size: 1.7em;
+    color: var(--subtitlecolor);
+}
