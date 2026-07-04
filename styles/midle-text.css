@@ -1,0 +1,17 @@
+@import url(style.css);
+.midle-text{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.722);
+}
+.midle-text h1{
+    padding: 15px;
+    font-size: 2.8em;
+    margin-bottom: 30px;
+    background-image:linear-gradient(to right, #ff1093, #ff10939e);
+}
+.midle-text p{
+    padding: 20px;
+    font-size: 1.7em;
+    line-height: 150%;
+}

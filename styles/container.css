@@ -5,8 +5,28 @@
     flex-direction: column;
     width: 100vw;
     height: 100vh;
-    padding: 20px;
 }
+.all-bale{
+    width: 100%;
+    padding: 25px;
+    background-color: #fd269c;
+    color: white;
+}
+.all-futebolzinho{
+    width: 100%;
+    padding: 25px;
+    background-color: #0196f9;
+    color: white;
+}
+.all-transito{
+    width: 100%;
+    padding: 25px;
+    background-color:yellowgreen;
+    color: white;
+}
+
+
+
 .image-style{
     width: 40%;
     border-radius: 50%;
@@ -17,13 +37,13 @@
 #transito{
     display: flex;
     align-items: center;
-    margin-bottom: 20px;
-    gap: 30px;
+    gap: 20px;
 }
+
+
 .text-c{
     font-size: 1.8em;
     padding: 10px;
-    margin-bottom: 40px;
     line-height: 170%;
 }
 

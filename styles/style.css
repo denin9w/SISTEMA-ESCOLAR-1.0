@@ -26,7 +26,7 @@
     --fundo-primario:#191ef8;
     --fundo-secundario:#041218;
     --elementos-primario:#01161E;
-    --fundo-nav:#6DAEDB;
+    --fundo-destaque:#6DAEDB;
     --destaque:#fd269c;
     --font-color-padrão: white;
     --titlecolor:#003869;
@@ -50,5 +50,11 @@ html,body{
    width: 100vw;
    height: 100vh;
    background-color: #ffffff;
+}
+footer{
+    pi
+    text-align: center;
+    background-color: var(--fundo-primario);
+    color: white;
 }
 
