@@ -1,15 +1,30 @@
 @import url(style.css);
 .midle-text{
+    text-align: center;
     margin-top: 10px;
     margin-bottom: 10px;
     box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.722);
 }
 .midle-text h1{
     padding: 15px;
-    font-size: 2.8em;
-    margin-bottom: 30px;
+    font-size: 4em;
+    margin:10px;
+    border-radius: 8px;
+    font-family: var(--font-title);
+    font-weight: 100;
     background-image:linear-gradient(to right, #ff1093, #ff10939e);
+    color: white;
 }
+.midle-text h2{
+    font-family: var(--font-title);
+    font-size: 3em;
+    font-weight: 500;
+    color: var(--titlecolor);
+    text-shadow: 1px 1px 6px rgba(0, 0, 0, 0.235);
+
+}
+
+
 .midle-text p{
     padding: 20px;
     font-size: 1.7em;

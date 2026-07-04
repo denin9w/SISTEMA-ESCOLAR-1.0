@@ -11,6 +11,10 @@
     <link rel="stylesheet" href="styles/container.css">
     <link rel="stylesheet" href="styles/midle-text.css">
 
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
 
     <title>CEJE</title>
 </head>
@@ -18,12 +22,12 @@
     <header>
         <nav id="navbar">
             <h1>CEJE</h1>
-        <button id="mobile_bnt">
+        <button id="mobile_btn">
             <i class="fa-solid fa-bars" id="menu"></i>
         </button>
         </nav>
         <div id="btn_mobile">
-            <ul id="nav_list">
+            <ul class="nav_list"  id="mobile_nav_list">
                 <li class="nav-item">
                     <a href="#">Matricule-se</a>
                 </li>
@@ -37,65 +41,62 @@
         </div>
     </header>
   
-    <section id="baner">
-        <div class="elemento-moeda">
-            <img src="imagens/moeda.png" alt="moeda">
-        </div>
-        <div class="elemento-boneco1">
-            <img src="imagens/boneco1.png" alt="raio" >
-        </div>
-
-        <div class="text-banner">
-            <h1>
-                Seu futuro começa aqui.
-            </h1>
-            <h2>
-                Leve seu filho ao um proximo nivel.
-            </h2>
-        </div>
-    </section>
-
-    <div class="midle-text">
-        <h1>Bem-vindos à nossa escola !</h1>
-        <p>
-            Nossa escola é um espaço de aprendizado, desenvolvimento e acolhimento, dedicado à formação de crianças e adolescentes desde a Educação Infantil até o Ensino Fundamental II. Aqui, valorizamos o conhecimento, o respeito, a criatividade e os valores que contribuem para a construção de cidadãos preparados para os desafios do futuro. Com uma equipe comprometida e um ambiente seguro e estimulante, acompanhamos cada etapa da jornada educacional de nossos alunos, promovendo crescimento acadêmico e pessoal.
-        </p>
-    </div>
-
-
-    <section id="container">
-
-        <div class="all-bale">
-            <div id="bale">
-                <img class="image-style" src="imagens/balet.png" alt="Futebol">
-                <h1>Balé</h1>
+        <section id="baner">
+            <div class="elemento-moeda">
+                <img src="imagens/moeda.png" alt="moeda">
             </div>
-            <div class="text-c">
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui perspiciatis veniam voluptas, aliquam beatae minima reprehenderit necessitatibus! Atque ex, ipsum quidem hic, sunt est delectus voluptatibus aliquid fuga quasi laborum.</p>
+            <div class="elemento-boneco1">
+                <img src="imagens/boneco1.png" alt="raio" >
             </div>
+            <div class="text-banner">
+                <h1>
+                    Seu futuro começa aqui.
+                </h1>
+                <h2>
+                    A persistência é o caminho do êxito.
+                </h2>
+            </div>
+        </section>
+        <div class="midle-text">
+            <h1>Bem-vindos à nossa escola !</h1>
+            <h2>Centro Educacional Jardim do Éden</h2>
+            <p>
+                Nossa escola é um espaço de aprendizado, desenvolvimento e acolhimento, dedicado à formação de crianças e adolescentes desde a Educação Infantil até o Ensino Fundamental II. Aqui, valorizamos o conhecimento, o respeito, a criatividade e os valores que contribuem para a construção de cidadãos preparados para os desafios do futuro. Com uma equipe comprometida e um ambiente seguro e estimulante, acompanhamos cada etapa da jornada educacional de nossos alunos, promovendo crescimento acadêmico e pessoal.
+            </p>
         </div>
-
+        <section id="container">
+            <div class="all-bale">
+                <div id="bale">
+                    <img class="image-style" src="imagens/balet.png" alt="Futebol">
+                    <h1>Balé</h1>
+                </div>
+                <div class="text-c">
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui perspiciatis veniam voluptas, aliquam beatae minima reprehenderit necessitatibus! Atque ex, ipsum quidem hic, sunt est delectus voluptatibus aliquid fuga quasi laborum.</p>
+                </div>
+            </div>
         
-        <div class="all-futebolzinho">
-            <div id="futebolzinho">
-                <img  class="image-style" src="imagens/futelbozinho.png" alt="Futebol">
-                <h1>Futebolsinho</h1>
+            <div class="all-futebolzinho">
+                <div id="futebolzinho">
+                    <img  class="image-style" src="imagens/futelbozinho.png" alt="Futebol">
+                    <h1>Futebolsinho</h1>
+                </div>
+                <div class="text-c">
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui perspiciatis veniam voluptas, aliquam beatae minima reprehenderit necessitatibus! Atque ex, ipsum quidem hic, sunt est delectus voluptatibus aliquid fuga quasi laborum.</p>
+                </div>
             </div>
-            <div class="text-c">
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui perspiciatis veniam voluptas, aliquam beatae minima reprehenderit necessitatibus! Atque ex, ipsum quidem hic, sunt est delectus voluptatibus aliquid fuga quasi laborum.</p>
+            <div class="all-transito">
+                <div id="transito">
+                    <img  class="image-style" src="imagens/transito.png" alt="transito">
+                    <h1>Dia do Transito</h1>
+                </div>
+                <div class="text-c">
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui perspiciatis veniam voluptas, aliquam beatae minima reprehenderit necessitatibus! Atque ex, ipsum quidem hic, sunt est delectus voluptatibus aliquid fuga quasi laborum.</p>
+                </div>
             </div>
-        </div>
-        <div class="all-transito">
-            <div id="transito">
-                <img  class="image-style" src="imagens/transito.png" alt="transito">
-                <h1>Dia do Transito</h1>
-            </div>
-            <div class="text-c">
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui perspiciatis veniam voluptas, aliquam beatae minima reprehenderit necessitatibus! Atque ex, ipsum quidem hic, sunt est delectus voluptatibus aliquid fuga quasi laborum.</p>
-            </div>
-        </div>
-</section>
-
-  
+            <footer>
+                <p>Centro Educacional Jardim do Éden</p>
+            </footer>
+        </section>
+    <script src="styles/java.js"></script>
 </body>
 </html>

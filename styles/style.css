@@ -51,10 +51,14 @@ html,body{
    height: 100vh;
    background-color: #ffffff;
 }
+.all-container{
+    width: 100vw;
+    min-height: 100vh;
+}
 footer{
-    pi
     text-align: center;
-    background-color: var(--fundo-primario);
+    padding: 30px;
+    background-color: var(--fundo);
     color: white;
 }
 
