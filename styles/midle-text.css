@@ -1,32 +1,36 @@
 @import url(style.css);
 .midle-text{
-    text-align: center;
     margin-top: 10px;
     margin-bottom: 10px;
     box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.722);
 }
 .midle-text h1{
+    text-align: center;
     padding: 15px;
-    font-size: 4em;
+    font-size: 3.2em;
     margin:10px;
     border-radius: 8px;
     font-family: var(--font-title);
-    font-weight: 100;
+    font-weight:lighter;
     background-image:linear-gradient(to right, #ff1093, #ff10939e);
-    color: white;
+    color:white;
 }
 .midle-text h2{
-    font-family: var(--font-title);
-    font-size: 3em;
-    font-weight: 500;
+    text-align: center;
+    margin-top: 40px;
+    font-family: var(--font-subtitle);
+    font-size: 1.8em;
+    font-weight: 100;
     color: var(--titlecolor);
     text-shadow: 1px 1px 6px rgba(0, 0, 0, 0.235);
 
 }
 
 
-.midle-text p{
+.text-p{
+    text-align: justify;
+    font-family: var(--font-subtitle);
     padding: 20px;
     font-size: 1.7em;
-    line-height: 150%;
+    line-height: 180%;
 }
