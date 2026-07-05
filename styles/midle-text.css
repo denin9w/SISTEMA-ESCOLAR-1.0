@@ -5,27 +5,24 @@
 }
 .midle-text h1{
     text-align: center;
-    padding: 15px;
-    font-size: 3.2em;
-    margin:10px;
-    border-radius: 8px;
-    font-family: var(--font-title);
-    font-weight:lighter;
-    background-image:linear-gradient(to right, #ff1093, #ff10939e);
-    background-image:linear-gradient(#003869, #003869c3);
+    font-size: 2em;
+    padding: 20px;
+    font-family: var(--font-btn);
+    font-weight:400;
+    background-color: var(--fundo);
     color:white;
 }
 .midle-text h2{
     text-align: center;
     margin-top: 40px;
     font-family: var(--font-subtitle);
-    font-size: 1.8em;
-    font-weight: 100;
+    font-size: 1.45em;
+    font-weight: 600;
+    padding: 20px;
     color: var(--titlecolor);
     text-shadow: 1px 1px 6px rgba(0, 0, 0, 0.235);
 
 }
-
 
 .text-p{
     text-align: justify;
