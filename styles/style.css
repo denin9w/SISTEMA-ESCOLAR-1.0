@@ -1,5 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Sacramento&family=Teachers:ital,wght@0,400..800;1,400..800&display=swap');
 
+@import url(baner.css);
+@import url(container.css);
+@import url(header.css);
+@import url(midle-text.css);
+@import url(testaments.css);
+
+
 .sacramento-regular{
     font-family: "Sacramento", cursive;
     font-weight: 400;
@@ -51,10 +58,7 @@ html,body{
    height: 100vh;
    background-color: #ffffff;
 }
-.all-container{
-    width: 100vw;
-    min-height: 100vh;
-}
+
 footer{
     text-align: center;
     padding: 30px;

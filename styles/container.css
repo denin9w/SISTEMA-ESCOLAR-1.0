@@ -1,10 +1,8 @@
-@import url(style.css);
-
 #container{
     display: flex;
     flex-direction: column;
     width: 100vw;
-    height: 100vh;
+    height:calc(100vh - 85,83);
     gap: 20px;
 }
 .all-bale{
@@ -45,13 +43,26 @@
 #bale h1,
 #transito h1{
     font-family: var(--font-title);
-    font-size: 3.5em;
-    font-weight: 100;
-    color: var(--titlecolor);
+    font-size: 3.6em;
+    font-weight: 400;
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.31);
+
 }
 
+#bale h1{
+    color:#dc318fde;
+}
+#futebolzinho h1{
+    color:#045d98;
+}
+#transito h1{
+    color:rgb(124, 167, 39);
+}
+
+
 .text-c p{
-    font-size: 1.24em;
+    text-align: justify;
+    font-size: 1.1em;
     line-height: 170%;
     color:rgb(255, 255, 255);
     font-family: var(--font-subtitle);
