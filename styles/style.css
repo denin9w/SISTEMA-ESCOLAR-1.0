@@ -58,7 +58,9 @@ html,body{
    height: 100vh;
    background-color: #ffffff;
 }
-
+body{
+    padding-top: 86px;
+}
 footer{
     text-align: center;
     padding: 30px;

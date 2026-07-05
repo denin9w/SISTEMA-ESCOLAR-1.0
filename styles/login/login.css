@@ -1,0 +1,402 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Sacramento&family=Teachers:ital,wght@0,400..800;1,400..800&display=swap');
+
+.sacramento-regular{
+    font-family: "Sacramento", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.teachers{
+    font-family: "Teachers", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.roboto{
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --titlecor:#003869;
+    --fundo-primario:#191ef8;
+    --fundo-secundario:#041218;
+    --elementos-primario:#01161E;
+    --fundo-nav:#6DAEDB;
+    --destaque:#fd269c;
+
+    --font-titulos:"Sacramento", cursive, sans-serif;
+    --font-subtitulo:"Teachers", sans-serif;
+    --font-botoes:"Roboto", sans-serif;
+}
+
+html,
+body{
+    width: 100%;
+    min-height: 100vh;
+    font-family: monospace;
+    overflow-x: hidden;
+}
+
+/* HEADER */
+
+
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    min-height: 160px;
+    background-color:white;
+    color: var(--titlecor);
+    text-align: center;
+}
+
+header h1{
+    font-weight: 400;
+    font-size:clamp(2.8em, 5vw, 4em);
+    font-family: var(--font-titulos);
+    color: var(--titlecor);
+    padding: 10px;
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.446);
+}
+
+header h2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    font-size: clamp(1.5em, 1.5vw, 2em);
+    font-family: var(--font-subtitulo);
+    color: var(--titlecor);
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.254);
+    margin-bottom: 10px;
+}
+
+
+section.title-l{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    width: 100vw;
+    min-height: 100vh;
+    overflow: hidden;
+    background: url(../../imagens/fundo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+}
+
+
+.title-l h1{
+    max-width: 100%;
+    min-width: 360px;
+    font-size: clamp(4em, 2vw, 24em);
+    color: white;
+}
+.loginh1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    height: 150px;
+    margin-bottom: 20px;
+    background-color: #043e7092;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.29);
+    font-family: var(--font-subtitulo);
+}
+
+
+
+.login{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    max-width: 500px;
+    width: 90%;
+    height: 400px;
+    margin-bottom: 60px;
+    background-color: #043e7092;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+}
+.login a{
+    text-decoration: none;
+    color: #ffffff;
+    font-family: var(--font-subtitulo);
+}
+.login a:hover{
+    text-decoration: underline;
+    scale:1.1;
+}
+
+#loginForm{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px 0px 20px 0px;
+    width: 100%;
+    gap: 20px;
+
+}
+.input-one,
+.input-two{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+}
+.input-one label,
+.input-two label{
+    margin-bottom: 0px;
+    color: white;
+    font-size: 1.3em;
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.157);
+    font-family: var(--font-subtitulo);
+}
+
+
+input.input-l{
+    border-radius: 4px;
+    width: 100% ;
+    height: 50px;
+    font-size: 1.5em;
+    background-color:transparent;
+    border:none;
+    box-shadow: rgba(0, 0, 0, 0.04) 0px 1px 3px;
+}
+
+.input-l:hover{
+    outline: none;
+    box-shadow: none;
+    border-bottom: 1px solid white;
+}
+.input-l:focus{
+    outline: none;
+    box-shadow: none;
+    color: white;
+}
+
+.input-b{
+    border-radius: 10px;
+    width: 80% ;
+    padding: 20px;
+    font-size: 1.2em;
+    margin-top: 40px;
+    border: 1px solid rgba(0, 0, 0, 0.21);
+    background-color: #fdfdfdc6;
+  
+    color: black;
+}
+
+
+.input-b:hover{
+    background-color: rgb(251, 251, 251);
+    color: #043e70fe;
+    transition: 0.3s;
+}
+
+.elementos{
+    position: absolute;
+    z-index: 1;
+}
+.elementos img{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+
+.moeda{
+    width:5%;
+    top:80%;
+    left:80%;
+}
+
+.boneco1{
+    width:8%;
+    top: 6%;
+    left: 10%;
+}
+
+
+
+.login-box{
+
+    width:400px;
+    margin:auto;
+    padding:30px;
+    border-radius:15px;
+    box-shadow:0 10px 30px rgba(0,0,0,.15);
+
+}
+
+.tabs{
+    display:flex;
+    gap:10px;
+    margin:40px 0px 60px 0px;
+
+}
+
+.tab{
+    background-color:transparent;
+    flex:1;
+    font-size:1.2em;
+    color:#043e70;
+    padding:20px;
+    border:none;
+    cursor:pointer;
+    border-radius:8px;
+    transition:.3s;
+}
+
+
+.tab.active{
+    background:#043e7092;
+    color:white;
+}
+
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 0.7em;
+    width: 100%;
+    padding: 20px;
+    font-family: var(--font-botoes);
+    color: white;
+    background-color: #043e70cd;
+}
+
+
+
+
+/* RESPONSIVO */
+
+@media (max-width: 1090px){
+
+
+    .moeda{
+        width:8%;
+        top: 80%;
+        left: 90%;
+
+    }
+
+
+    .title-c{
+      padding-left: 20px;
+    }
+
+    .title-c h1{
+        width: 100%;
+    }
+
+    }   
+    @media (max-width: 769px){
+   
+    header h1{
+        font-size: 2.1em;
+    }
+    header h2{
+        font-size: 1.1em;
+    }
+  
+
+    .moeda{
+        width:8%;
+        top: 90%;
+        right: 10%;
+    }
+  
+    .boneco1{
+
+        width:12%;
+        top:6%;
+        left:5%;
+    }
+   
+    .boneco1:hover{
+        scale: 1.2;
+    }
+    @media (max-width: 431px){
+        header h1{
+            font-size: 3em;
+        }
+      
+
+
+        .moeda{
+            width:15%;
+            top: 80%;
+            left: 80%;
+        }
+    
+        .boneco1{
+            width:15%;
+            top:14%;
+            left:8%;
+        }
+        .conteudo a{
+            font-size: 1.7em;
+        }
+    
+     
+        
+        @media (max-width: 396px){
+
+        .moeda{
+            width:14%;
+            top: 90%;
+            left: 80%;
+        }
+    
+        .boneco1{
+            width:15%;
+            top:14%;
+            left:8%;
+        }
+     
+        .text-c h1{
+            margin-bottom: 20px;
+            font-size: 3em;
+        }
+
+        .tabs{
+            display:flex;
+            gap:10px;
+            margin:40px 0px 60px 0px;
+
+        }
+
+        .tab{
+            background-color:transparent;
+            flex:1;
+            font-size:1em;
+            color:#043e70;
+            padding:20px;
+            border:none;
+            cursor:pointer;
+            border-radius:8px;
+            transition:.3s;
+        }
+
+
+    }
