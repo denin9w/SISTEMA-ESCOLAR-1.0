@@ -27,7 +27,7 @@
 .text-p{
     text-align: justify;
     font-family: var(--font-subtitle);
-    padding: 20px;
-    font-size: 1.1em;
+    padding: 40px;
+    font-size: 1.2em;
     line-height: 180%;
 }
