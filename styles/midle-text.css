@@ -12,6 +12,7 @@
     font-family: var(--font-title);
     font-weight:lighter;
     background-image:linear-gradient(to right, #ff1093, #ff10939e);
+    background-image:linear-gradient(#003869, #003869c3);
     color:white;
 }
 .midle-text h2{
