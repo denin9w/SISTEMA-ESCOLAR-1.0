@@ -1,0 +1,38 @@
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    min-height: 160px;
+    background-color:white;
+    color: var(--titlecor);
+}
+
+header h1{
+    font-size:clamp(3.6em, 5vw, 4em);
+    font-family: var(--font-titulos);
+    font-weight: 400;
+    padding: 10px;
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.446);
+}
+
+header h2{
+    font-size: clamp(1.5em, 1.5vw, 2em);
+    font-family: var(--font-subtitulo);
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.254);
+    margin-bottom: 10px;
+}
+.painel-login h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 100vw;
+    height: 150px;
+    font-family: var(--font-subtitulo);
+    background-color: var(--fundo);
+    font-size: clamp(4em, 2vw, 24em);
+    color: white;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.29);
+}

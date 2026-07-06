@@ -1,0 +1,21 @@
+.elementos{
+    position: absolute;
+    z-index: 1;
+}
+.elementos img{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.moeda{
+    width:17%;
+    bottom:1%;
+    right:1%;
+}
+
+.boneco1{
+    width:22%;
+    top: 15%;
+    left: 1%;
+}
